@@ -12,9 +12,9 @@
             Car car = new Car("Mercedes", 2020);
             car.ShowInfo();
             //Simple task 3
-            Calculator cal = new Calculator(100, 100);
-            cal.Sum();
-            cal.Difference();
+            Calculator cal = new Calculator();
+            cal.Sum(10,10);
+            cal.Difference(10,10);
             #endregion
 
 
@@ -57,22 +57,16 @@
 
     public class Calculator
     {
-        public double FirstNumber { get; set; }
-        public double SecondNumber { get; set; }
-        public Calculator(double fn, double sn)
+       
+        public void Difference(double a,double b)
         {
-            FirstNumber = fn;
-            SecondNumber = sn;
+            double result = a - b;
+            Console.WriteLine($"{a}-{b}={result}");
         }
-        public void Difference()
+        public void Sum(int a, int b)
         {
-            double result = FirstNumber - SecondNumber;
-            Console.WriteLine($"{FirstNumber}-{SecondNumber}={result}");
-        }
-        public void Sum()
-        {
-            double result = FirstNumber + SecondNumber;
-            Console.WriteLine($"{FirstNumber}+{SecondNumber}={result}");
+            double result = a + b;
+            Console.WriteLine($"{a}+{b}={result}");
         }
 
     }
