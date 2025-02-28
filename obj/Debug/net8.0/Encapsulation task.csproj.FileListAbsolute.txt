@@ -1,0 +1,14 @@
+C:\Users\lenovo\source\repos\Encapsulation task\bin\Debug\net8.0\Encapsulation task.exe
+C:\Users\lenovo\source\repos\Encapsulation task\bin\Debug\net8.0\Encapsulation task.deps.json
+C:\Users\lenovo\source\repos\Encapsulation task\bin\Debug\net8.0\Encapsulation task.runtimeconfig.json
+C:\Users\lenovo\source\repos\Encapsulation task\bin\Debug\net8.0\Encapsulation task.dll
+C:\Users\lenovo\source\repos\Encapsulation task\bin\Debug\net8.0\Encapsulation task.pdb
+C:\Users\lenovo\source\repos\Encapsulation task\obj\Debug\net8.0\Encapsulation task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\source\repos\Encapsulation task\obj\Debug\net8.0\Encapsulation task.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\Encapsulation task\obj\Debug\net8.0\Encapsulation task.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\Encapsulation task\obj\Debug\net8.0\Encapsulation task.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\Encapsulation task\obj\Debug\net8.0\Encapsulation task.dll
+C:\Users\lenovo\source\repos\Encapsulation task\obj\Debug\net8.0\refint\Encapsulation task.dll
+C:\Users\lenovo\source\repos\Encapsulation task\obj\Debug\net8.0\Encapsulation task.pdb
+C:\Users\lenovo\source\repos\Encapsulation task\obj\Debug\net8.0\Encapsulation task.genruntimeconfig.cache
+C:\Users\lenovo\source\repos\Encapsulation task\obj\Debug\net8.0\ref\Encapsulation task.dll
