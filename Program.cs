@@ -13,67 +13,48 @@
             car.ShowInfo();
             //Simple task 3
             Calculator cal = new Calculator();
-            cal.Sum(10,10);
-            cal.Difference(10,10);
+            cal.Sum(10, 10);
+            cal.Difference(10, 10);
             #endregion
 
+            #region Medium taks
+            //Medium task 1
+            BankAccount bankAccount = new BankAccount(100);
+            bankAccount.ShowBalance();
+            bankAccount.Deposit(50);
+            bankAccount.Withdraw(200);
+            bankAccount.Withdraw(2);
+            //Medium task 2
+            Student std = new Student("Aslan", 20, 95);
+            std.GetStudentInfo();
+            // Medium task 3
+            Employee emp = new Employee("Aslan", "Director", 10000);
+            emp.EmployeeInfo();
+            emp.IncreaseSalary(5000);
+            //Rectangle
+            Rectangle rec = new Rectangle(-10, 10);
+            rec.CalculatePerimeter();
+            rec.CalculateArea();
+            #endregion
 
+            #region Hard tasks
+            // Hard task 1
+            Customer customer = new Customer("Aslan");
+            customer.add_Order(new Order(100));
+            customer.add_Order(new Order(200));
+            customer.TotalOrders();
+            //Hard task 2
+            Library library = new Library();
+            library.AddBook(new Book("C#", "Aslan Memmedov"));
+            library.AddBook(new Book("JAVA", "Aslan"));
+            library.ShowBooks();
+
+            var results_of_searching = library.Search_Books("C#");
+            foreach (var book in results_of_searching)
+            {
+                Console.WriteLine($"{book.Title}. Author: {book.Author}");
+            }
+            #endregion
         }
-    }
-
-    public class Person
-    {
-        public string Name { get; set; }
-        public int Age { get; set; }
-
-        public Person (string name, int age)
-        {
-            this.Age = age;
-            this.Name = name;
-        }
-
-        public void ShowInformation()
-        {
-            Console.WriteLine($"Name: {Name}, age: {Age}");
-        }
-
-    }
-
-    public class Car
-    {
-        public string Brand { get; set; }
-        public int Year { get; set; }
-
-        public Car(string brand, int year)
-        {
-            Brand = brand;
-            Year = year;
-        }
-        public void ShowInfo()
-        {
-            Console.WriteLine($"Brand: {Brand}, Year: {Year}");
-        }
-    }
-
-    public class Calculator
-    {
-       
-        public void Difference(double a,double b)
-        {
-            double result = a - b;
-            Console.WriteLine($"{a}-{b}={result}");
-        }
-        public void Sum(int a, int b)
-        {
-            double result = a + b;
-            Console.WriteLine($"{a}+{b}={result}");
-        }
-
-    }
-
-    public class BankAccount
-    {
-        private decimal balance;
-        public decimal Balance { get { return balance; } }
-    }
+    }  
 }
