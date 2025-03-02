@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Encapsulation_task
 {
-    public class BankAccount
+    internal class BankAccount
     {
         private decimal balance;
         public decimal Balance { get { return balance; } }

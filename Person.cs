@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Encapsulation_task
 {
-    public class Person
+    internal class Person
     {
         public string Name { get; set; }
         public int Age { get; set; }

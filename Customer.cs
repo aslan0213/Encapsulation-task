@@ -24,12 +24,5 @@ namespace Encapsulation_task
             Console.WriteLine(Orders.Sum(order => order.Amount)); 
         }
     }
-    public class Order
-    {
-        public decimal Amount { get; set; }
-        public Order(decimal amount)
-        {
-            Amount = amount;
-        }
-    }
+   
 }

@@ -54,6 +54,18 @@
             {
                 Console.WriteLine($"{book.Title}. Author: {book.Author}");
             }
+            //Hard task 3
+            Company company = new Company();
+            company.AddEmployee(new Employee("Aslan", "Team Leader", 2000));
+            company.AddEmployee(new Employee("Razil", "Data Engineer", 3000));
+            company.AddEmployee(new Employee("Nihad", "Php developer", 10000));
+            company.IncreaseSalary(100);
+            // Hard task 4
+            Store st = new Store();
+            st.AddProduct(new Product("Qelem", 1.5m));
+            st.AddProduct(new Product("Pozan", 2.5m));
+            st.AddProduct(new Product("Defter", 5));
+            st.TotalAmount();
             #endregion
         }
     }  
